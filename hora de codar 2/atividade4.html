@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade4</title>
+</head>
+<body>
+    <script>
+
+      var primeirovalor = parseFloat(prompt("Informe o trimeiro valor: "))
+      var segundovalor = parseFloat(prompt("Informe o segundo valor: "))
+      var terceirovalor = parseFloat(prompt("Informe o terceiro valor: "))
+       
+      if (primeirovalor > terceirovalor && segundovalor > terceirovalor){
+        var soma = primeirovalor + segundovalor 
+        alert("Seus maiores numero sao: " + primeirovalor + " " + segundovalor + ".A soma dos maiores valores eh: " + soma)
+      }
+      else if (terceirovalor > primeirovalor && segundovalor > primeirovalor){
+        var soma = terceirovalor + segundovalor 
+        alert("Seus maiores numero sao: " + terceirovalor + " " + segundovalor + ".A soma dos maiores valores eh: " + soma)
+    }
+    else{
+        var soma = primeirovalor + terceirovalor
+        alert("Seus maiores numero sao: " + primeirovalor + " " + terceirovalor + ".A soma dos maiores valores eh: " + soma)
+    }
+
+    </script>
+</body>
+</html>

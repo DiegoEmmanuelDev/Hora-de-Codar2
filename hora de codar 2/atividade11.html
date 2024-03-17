@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade11</title>
+</head>
+<body>
+    <script>
+          var primeironumero = parseFloat(prompt("Digite o primeiro numero: "))
+          var segundonumero = parseFloat(prompt("Digite o segundo numero: "))
+           
+          var escolhas = parseInt(prompt("Informe 1 adiçao, 2 subtracao, 3 divisao, 4 multiplicacao"))
+          
+          switch (escolhas){
+            case 1:
+            var adiçao = primeironumero + segundonumero
+            alert("Resultado: " + adiçao)
+            break
+
+            case 2:
+            var subtracao = primeironumero - segundonumero
+            alert("Resultado: " + subtracao)
+            break
+
+            case 3:
+            var divisao = primeironumero / segundonumero   
+            alert("Resultado: " + divisao)
+            break
+
+            case 4: 
+            var multiplicacao = primeironumero * segundonumero
+            alert("Resultado: " + multiplicacao)
+            break
+        }
+
+
+
+    </script>
+</body>
+</html>
